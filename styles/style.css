@@ -1,4 +1,8 @@
-a {text-decoration: none;}
+a {
+    color: black;
+    text-decoration: none;
+    opacity: 80%;
+}
 
 .banner {
     display: flex;
@@ -6,7 +10,7 @@ a {text-decoration: none;}
     background-color: transparent;
     font-size: 13px;
     line-height: 27px;
-    font-family: 'Roboto', 'RobotoDraft', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     justify-content: flex-end;
     align-items: center;
 }
@@ -37,8 +41,6 @@ a {text-decoration: none;}
     margin-left: 15px;
 }
 
-
-
 .banner .foto {
     background-color: darkgray;
     border-radius: 50%;
@@ -50,7 +52,6 @@ a {text-decoration: none;}
 .logo {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     
 }
 .logo IMG {
@@ -64,6 +65,7 @@ a {text-decoration: none;}
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin: 20px;
 }
 
 .search input {
@@ -81,6 +83,111 @@ a {text-decoration: none;}
 
 }
 
-.search input :hover {
-    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+.przyciski {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
 }
+
+.przyciski button {
+    background-color: rgb(242, 242, 242);
+    border-width: 0px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 36px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgb(242, 242, 242);
+    font-family: Arial, sans-serif;
+        
+}
+
+footer .b {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    
+}
+
+footer .ba {
+    display: flex;
+    align-content: center;
+}
+
+footer .bb {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+footer .polska {
+    padding: 10px;
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+
+footer .polska :hover { text-decoration: underline;  }
+
+footer .b .ba .reklamuj-sie {
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+}
+
+footer .b .ba .reklamuj-sie :hover { text-decoration: underline;  }
+
+footer .b .ba .dla-firm {
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+}
+
+footer .b .ba .dla-firm :hover { text-decoration: underline;  }
+
+footer .b .ba .o-nas {
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+}
+
+footer .b .ba .o-nas :hover { text-decoration: underline;  }
+
+footer .b .ba .jak-dziala-wyszukiwarka {
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+}
+
+footer .b .ba .jak-dziala-wyszukiwarka :hover { text-decoration: underline;  }
+
+footer .b .bb .prywatnosc { 
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+}
+
+footer .b .bb .prywatnosc :hover { text-decoration: underline;  }
+
+footer .b .bb .warunki {
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+}
+
+footer .b .bb .warunki :hover { text-decoration: underline;  }
+
+footer .b .bb .ustawienia {
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+}
+
+footer .b .bb .ustawienia :hover { text-decoration: underline;  }
